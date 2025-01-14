@@ -5,7 +5,7 @@ jobs:
   shell-cmd-job:
     runs-on: ubuntu-latest
   steps:
-    - name: echo Hello World
+    - name: echo Hello
       run: echo "Hello World"
     - name: multiple line command
       run: | 
